@@ -39,3 +39,8 @@ yabai -m rule --add app="^QuickTime Player$" manage=off
 
 # sketchbar
 yabai -m config external_bar all:32:0
+
+# borders
+borders active_color=0xffffaa00 inactive_color=0xff490000 width=1.0 &
+
+source $HOME/.config/yabai/spaces.sh
